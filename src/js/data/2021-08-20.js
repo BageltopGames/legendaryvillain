@@ -10,8 +10,8 @@ dataSet[dataSetVersion].options = [
     sub: [
       { name: "Core", key: "C" },
       { name: "Dark City", key: "DC" },
-      { name: "Fantastic Four", key: "F4" },
-	  { name: "Paint the Town Red", key: "PTTR" },
+      { name: "Fantastic Four", key: "FF" },
+	  { name: "Paint the Town Red", key: "PTR" },
 	  { name: "Villains", key: "V" },
 	  { name: "Guardians of the Galaxy", key: "GG" },
 	  { name: "Fear Itself", key: "FI" },
@@ -20,938 +20,672 @@ dataSet[dataSetVersion].options = [
 	  { name: "Captain America 75th", key: "CA" },
 	  { name: "Civil War", key: "CW" },
 	  { name: "Deadpool", key: "DP" },
-	  { name: "Noir", key: "NOIR" },
+	  { name: "Noir", key: "N" },
 	  { name: "X-Men", key: "XM" },
 	  { name: "Spider-Man Homecoming", key: "SMH" },
-	  { name: "Champions", key: "CHP" },
+	  { name: "Champions", key: "CH" },
 	  { name: "World War Hulk", key: "WWH" },
+	  { name: "Marvel Studios Phase 1", key: "MS" },
 	  { name: "Ant-Man", key: "AM" },
 	  { name: "Venom", key: "VN" },
-	  { name: "Dimensions", key: "DM" },
 	  { name: "Revelations", key: "RV" },
-	  { name: "S.H.I.E.L.D.", key: "S" },
+	  { name: "S.H.I.E.L.D.", key: "SH" },
 	  { name: "Heroes of Asgard", key: "HOA" },
 	  { name: "The New Mutants", key: "NM" },
-	  { name: "Into the Cosmos", key: "ITC" },
+	  { name: "Into the Cosmos", key: "ITS" },
 	  { name: "Realm of Kings", key: "ROK" } 
     ]
   }
   ];
 
 dataSet[dataSetVersion].characterData = [
- {
-name: "Age of Ultron",
-img: "https://i.imgur.com/flEpoQ7.png",
+{
+name: "Queen's Vengeance",
+img: "https://i.imgur.com/N68xx5r.png",
 opts: {
 expansion: ["AM"]
 }
 },
 {
-name: "Pull Earth into Medieval Times",
-img: "https://i.imgur.com/24Ikt0C.png",
+name: "Ultron's Legacy",
+img: "https://i.imgur.com/wwx9u8p.png",
 opts: {
 expansion: ["AM"]
 }
 },
 {
-name: "Annihilation: Conquest",
-img: "https://i.imgur.com/VDhh0nv.jpg",
+name: "Brotherhood",
+img: "https://i.imgur.com/NiARveV.png",
 opts: {
-expansion: ["ITC"]
+expansion: ["C"]
 }
 },
 {
-name: "Transform Commuters into Giant Ants",
-img: "https://i.imgur.com/sT4bdpB.png",
+name: "Enemies of Asgard",
+img: "https://i.imgur.com/9Ql3fpm.png",
 opts: {
-expansion: ["AM"]
+expansion: ["C"]
 }
 },
 {
-name: "Asgardian Test of Worth",
-img: "https://i.imgur.com/OARbTFL.jpg",
+name: "HYDRA",
+img: "https://i.imgur.com/mmkdgFT.png",
+opts: {
+expansion: ["C"]
+}
+},
+{
+name: "Masters of Evil",
+img: "https://i.imgur.com/jbELhWC.png",
+opts: {
+expansion: ["C"]
+}
+},
+{
+name: "Radiation",
+img: "https://i.imgur.com/wyhEZW4.png",
+opts: {
+expansion: ["C"]
+}
+},
+{
+name: "Skrulls",
+img: "https://i.imgur.com/Zwbcr9k.png",
+opts: {
+expansion: ["C"]
+}
+},
+{
+name: "Spider-Foes",
+img: "https://i.imgur.com/maRaMgo.png",
+opts: {
+expansion: ["C"]
+}
+},
+{
+name: "Masters of Evil (WWII)",
+img: "https://i.imgur.com/cEsUgMf.png",
+opts: {
+expansion: ["CA"]
+}
+},
+{
+name: "Zola's Creations",
+img: "https://i.imgur.com/J1gf8EJ.png",
+opts: {
+expansion: ["CA"]
+}
+},
+{
+name: "Monsters Unleashed",
+img: "https://i.imgur.com/o2OetON.png",
+opts: {
+expansion: ["CH"]
+}
+},
+{
+name: "Wrecking Crew",
+img: "https://i.imgur.com/OEhvCMU.png",
+opts: {
+expansion: ["CH"]
+}
+},
+{
+name: "CSA Special Marshals",
+img: "https://i.imgur.com/UZiqe82.png",
+opts: {
+expansion: ["CW"]
+}
+},
+{
+name: "Great Lakes Avengers",
+img: "https://i.imgur.com/eOEOTdI.png",
+opts: {
+expansion: ["CW"]
+}
+},
+{
+name: "Heroes for Hire",
+img: "https://i.imgur.com/SxSPsvr.png",
+opts: {
+expansion: ["CW"]
+}
+},
+{
+name: "Registration Enforcers",
+img: "https://i.imgur.com/yE1tV1e.png",
+opts: {
+expansion: ["CW"]
+}
+},
+{
+name: "S.H.I.E.L.D. Elite",
+img: "https://i.imgur.com/558Xz1e.png",
+opts: {
+expansion: ["CW"]
+}
+},
+{
+name: "Superhuman Registration Act",
+img: "https://i.imgur.com/m2pXHKf.png",
+opts: {
+expansion: ["CW"]
+}
+},
+{
+name: "Thunderbolts",
+img: "https://i.imgur.com/BeYu6GO.png",
+opts: {
+expansion: ["CW"]
+}
+},
+{
+name: "Emissaries of Evil",
+img: "https://i.imgur.com/PCG4yUc.png",
+opts: {
+expansion: ["DC"]
+}
+},
+{
+name: "Four Horsemen",
+img: "https://i.imgur.com/qRYZHbk.png",
+opts: {
+expansion: ["DC"]
+}
+},
+{
+name: "Marauders",
+img: "https://i.imgur.com/5IIx1z8.png",
+opts: {
+expansion: ["DC"]
+}
+},
+{
+name: "Mutant Liberation Front",
+img: "https://i.imgur.com/EYQP0d0.png",
+opts: {
+expansion: ["DC"]
+}
+},
+{
+name: "Streets of New York",
+img: "https://i.imgur.com/909hglK.png",
+opts: {
+expansion: ["DC"]
+}
+},
+{
+name: "Underworld",
+img: "https://i.imgur.com/PONgRgJ.png",
+opts: {
+expansion: ["DC"]
+}
+},
+{
+name: "Deadpool's 'Friends'",
+img: "https://i.imgur.com/HHghQ5B.png",
+opts: {
+expansion: ["DP"]
+}
+},
+{
+name: "Evil Deadpool Corpse",
+img: "https://i.imgur.com/mRNZlBV.png",
+opts: {
+expansion: ["DP"]
+}
+},
+{
+name: "Heralds of Galactus",
+img: "https://i.imgur.com/sWZgAUc.png",
+opts: {
+expansion: ["FF"]
+}
+},
+{
+name: "Subterranea",
+img: "https://i.imgur.com/wwiwEPV.png",
+opts: {
+expansion: ["FF"]
+}
+},
+{
+name: "The Mighty",
+img: "https://i.imgur.com/9hSlZV1.png",
+opts: {
+expansion: ["FI"]
+}
+},
+{
+name: "Infinity Gems",
+img: "https://i.imgur.com/DFvSRBD.png",
+opts: {
+expansion: ["GG"]
+}
+},
+{
+name: "Kree Starforce",
+img: "https://i.imgur.com/4BD8asm.png",
+opts: {
+expansion: ["GG"]
+}
+},
+{
+name: "Dark Council",
+img: "https://i.imgur.com/y1VJVVB.png",
 opts: {
 expansion: ["HOA"]
 }
 },
 {
-name: "Trap Heroes in the Microverse",
-img: "https://i.imgur.com/lIaIDvn.png",
+name: "Omens of Ragnarok",
+img: "https://i.imgur.com/6aTylzJ.png",
 opts: {
-expansion: ["AM"]
+expansion: ["HOA"]
 }
 },
 {
-name: "Bathe Earth in Cosmic Rays",
-img: "https://i.imgur.com/7ZPJQiR.jpg",
+name: "Black Order of Thanos",
+img: "https://i.imgur.com/OsUWZ1L.png",
 opts: {
-expansion: ["F4"]
+expansion: ["ITS"]
 }
 },
 {
-name: "Brainwash the Military",
-img: "https://i.imgur.com/TA5ozee.jpg",
+name: "Celestials",
+img: "https://i.imgur.com/bantFGd.png",
 opts: {
-expansion: ["CA"]
+expansion: ["ITS"]
 }
 },
 {
-name: "Negative Zone Prison Breakout",
-img: "https://i.imgur.com/RpQjxTi.jpg",
+name: "Elders of the Universe",
+img: "https://i.imgur.com/8sJy1KU.png",
 opts: {
-expansion: ["C"]
+expansion: ["ITS"]
 }
 },
 {
-name: "Build an Army of Annihilation",
-img: "https://i.imgur.com/l7WTW8u.jpg",
+name: "From Beyond",
+img: "https://i.imgur.com/dZmtJ7z.png",
 opts: {
-expansion: ["SW1"]
+expansion: ["ITS"]
 }
 },
 {
-name: "Build an Underground Mega-Vault Prison",
-img: "https://i.imgur.com/J0gCc25.jpg",
+name: "Chitauri",
+img: "https://i.imgur.com/S50BTsF.png",
 opts: {
-expansion: ["V"]
+expansion: ["MS"]
 }
 },
 {
-name: "Cage Villains in Power-Suppressing Cells",
-img: "https://i.imgur.com/u24AUbI.jpg",
+name: "Gamma Hunters",
+img: "https://i.imgur.com/8FCmTEe.png",
 opts: {
-expansion: ["V"]
+expansion: ["MS"]
 }
 },
 {
-name: "Portals to the Dark Dimension",
-img: "https://i.imgur.com/TeWSeWY.jpg",
+name: "Iron Foes",
+img: "https://i.imgur.com/E2CqBhM.png",
 opts: {
-expansion: ["C"]
+expansion: ["MS"]
 }
 },
 {
-name: "Change the Outcome of WWII",
-img: "https://i.imgur.com/05QJDdi.jpg",
+name: "Goblin's Freak Show",
+img: "https://i.imgur.com/edMFUEM.png",
 opts: {
-expansion: ["CA"]
+expansion: ["N"]
 }
 },
 {
-name: "Unleash the Power of the Cosmic Cube",
-img: "https://i.imgur.com/SMysfCP.jpg",
+name: "X-Men Noir",
+img: "https://i.imgur.com/keelMXA.png",
 opts: {
-expansion: ["C"]
+expansion: ["N"]
 }
 },
 {
-name: "Corrupt the Next Generation of Heroes",
-img: "https://i.imgur.com/VfCEpgd.jpg",
-opts: {
-expansion: ["SW1"]
-}
-},
-{
-name: "Crash the Moon into the Sun",
-img: "https://i.imgur.com/3rznD2O.jpg",
+name: "Demons of Limbo",
+img: "https://i.imgur.com/85u8YuT.png",
 opts: {
 expansion: ["NM"]
 }
 },
 {
-name: "Crown Thor King of Asgard",
-img: "https://i.imgur.com/FgWdtdK.jpg",
+name: "Hellions",
+img: "https://i.imgur.com/f3EAq5M.png",
 opts: {
-expansion: ["V"]
-}
-},
-{
-name: "Crush Hydra",
-img: "https://i.imgur.com/ligeUH9.jpg",
-opts: {
-expansion: ["V"]
-}
-},
-{
-name: "Crush Them With My Bare Hands",
-img: "https://i.imgur.com/w45v7C9.jpg",
-opts: {
-expansion: ["SW1"]
-}
-},
-{
-name: "Clash of the Monsters Unleashed",
-img: "https://i.imgur.com/ua0kn1S.png",
-opts: {
-expansion: ["CHP"]
-}
-},
-{
-name: "Dark Alliance",
-img: "https://i.imgur.com/8lg93An.jpg",
-opts: {
-expansion: ["SW1"]
-}
-},
-{
-name: "Divide and Conquer",
-img: "https://i.imgur.com/vQ5nmZn.png",
-opts: {
-expansion: ["CHP"]
-}
-},
-{
-name: "Deadlands Hordes Charge the Wall",
-img: "https://i.imgur.com/wFAyJCj.jpg",
-opts: {
-expansion: ["SW2"]
-}
-},
-{
-name: "Deadpool Kills the Marvel Universe",
-img: "https://i.imgur.com/ID1I5lH.jpg",
-opts: {
-expansion: ["DP"]
-}
-},
-{
-name: "Deadpool Wants a Chimichanga",
-img: "https://i.imgur.com/JM6I6d7.jpg",
-opts: {
-expansion: ["DP"]
-}
-},
-{
-name: "Deadpool Writes a Scheme",
-img: "https://i.imgur.com/yQp5Vtd.jpg",
-opts: {
-expansion: ["DP"]
-}
-},
-{
-name: "Destroy the Nova Corps",
-img: "https://i.imgur.com/dXPn1zR.jpg",
-opts: {
-expansion: ["ITC"]
-}
-},
-{
-name: "Detonate the Helicarrier",
-img: "https://i.imgur.com/x3xbBjK.jpg",
-opts: {
-expansion: ["DC"]
-}
-},
-{
-name: "Hypnotize Every Human",
-img: "https://i.imgur.com/7e72TN6.png",
-opts: {
-expansion: ["CHP"]
-}
-},
-{
-name: "Steal All Oxygen on Earth",
-img: "https://i.imgur.com/QlhK872.png",
-opts: {
-expansion: ["CHP"]
-}
-},
-{
-name: "Avengers vs. X-men",
-img: "https://i.imgur.com/bpe99lH.jpg",
-opts: {
-expansion: ["CW"]
-}
-},
-{
-name: "Earthquake Drains the Ocean / Tsunami Crushes the Coast",
-img: "https://i.imgur.com/83NTUh2.jpg",
-opts: {
-expansion: ["RV"]
-}
-},
-{
-name: "Enthrone the Barons of Battleword",
-img: "https://i.imgur.com/QtNrBJg.jpg",
-opts: {
-expansion: ["SW2"]
-}
-},
-{
-name: "Dark Reign of H.A.M.M.E.R. Officers",
-img: "https://i.imgur.com/OzmN5al.jpg",
-opts: {
-expansion: ["CW"]
-}
-},
-{
-name: "Everybody Hates Deadpool",
-img: "https://i.imgur.com/SOvqEQ7.jpg",
-opts: {
-expansion: ["DP"]
-}
-},
-{
-name: "Epic Super Hero Civil War",
-img: "https://i.imgur.com/COuguEY.jpg",
-opts: {
-expansion: ["CW"]
-}
-},
-{
-name: "Imprison Unregistered Superhumans",
-img: "https://i.imgur.com/SIKswyy.jpg",
-opts: {
-expansion: ["CW"]
-}
-},
-{
-name: "Fear Itself",
-img: "https://i.imgur.com/1mDvn38.jpg",
-opts: {
-expansion: ["FI"]
-}
-},
-{
-name: "Nitro the Supervillain Threatens Crowds",
-img: "https://i.imgur.com/V0z2K9y.jpg",
-opts: {
-expansion: ["CW"]
-}
-},
-{
-name: "Predict Future Crime",
-img: "https://i.imgur.com/1VmHCcn.jpg",
-opts: {
-expansion: ["CW"]
-}
-},
-{
-name: "Reveal Heroes' Secret Identities",
-img: "https://i.imgur.com/c6y9jd3.jpg",
-opts: {
-expansion: ["CW"]
-}
-},
-{
-name: "Flood the Planet with Melted Glaciers",
-img: "https://i.imgur.com/aRDozSO.jpg",
-opts: {
-expansion: ["F4"]
-}
-},
-{
-name: "Forge the Infinity Gauntlet",
-img: "https://i.imgur.com/hZMjOuc.jpg",
-opts: {
-expansion: ["GG"]
-}
-},
-{
-name: "Fragmented Realities",
-img: "https://i.imgur.com/veZGUha.jpg",
-opts: {
-expansion: ["SW1"]
-}
-},
-{
-name: "United States Split by Civil War",
-img: "https://i.imgur.com/AzoFUDw.jpg",
-opts: {
-expansion: ["CW"]
-}
-},
-{
-name: "Go Back in Time to Slay Heroes' Ancestors",
-img: "https://i.imgur.com/oLDLiAc.jpg",
-opts: {
-expansion: ["CA"]
-}
-},
-{
-name: "Graduation at Xavier's X-Academy",
-img: "https://i.imgur.com/dCSMwEy.jpg",
-opts: {
-expansion: ["V"]
-}
-},
-{
-name: "Hail Hydra",
-img: "https://i.imgur.com/bMTjy8B.jpg",
-opts: {
-expansion: ["S"]
-}
-},
-{
-name: "Capture Baby Hope",
-img: "https://i.imgur.com/xo4BgjR.jpg",
-opts: {
-expansion: ["DC"]
-}
-},
-{
-name: "Find the Split Personality Killer",
-img: "https://i.imgur.com/yOnTfm3.jpg",
-opts: {
-expansion: ["NOIR"]
-}
-},
-{
-name: "House of M / No More Mutants",
-img: "https://i.imgur.com/N6l3j5z.jpg",
-opts: {
-expansion: ["RV"]
-}
-},
-{
-name: "Hydra Helicarriers Hunt Heroes",
-img: "https://i.imgur.com/yKr285U.jpg",
-opts: {
-expansion: ["S"]
-}
-},
-{
-name: "Five Families of Crime",
-img: "https://i.imgur.com/P2rTtsf.jpg",
-opts: {
-expansion: ["NOIR"]
-}
-},
-{
-name: "Hidden Heart of Darkness",
-img: "https://i.imgur.com/ndNOUpe.jpg",
-opts: {
-expansion: ["NOIR"]
-}
-},
-{
-name: "Infiltrate the Lair with Spies",
-img: "https://i.imgur.com/Mxa5N8u.jpg",
-opts: {
-expansion: ["V"]
-}
-},
-{
-name: "Intergalactic Kree Nega-Bomb",
-img: "https://i.imgur.com/bl2MrP7.jpg",
-opts: {
-expansion: ["GG"]
-}
-},
-{
-name: "Invade the Daily Bugle News HQ",
-img: "https://i.imgur.com/QmnxzIR.jpg",
-opts: {
-expansion: ["PTTR"]
-}
-},
-{
-name: "Silence the Witnesses",
-img: "https://i.imgur.com/lKxXC55.jpg",
-opts: {
-expansion: ["NOIR"]
-}
-},
-{
-name: "Invincible Force Field",
-img: "https://i.imgur.com/uYHomP3.jpg",
-opts: {
-expansion: ["F4"]
-}
-},
-{
-name: "Last Stand at Avengers Tower",
-img: "https://i.imgur.com/JJxtFXu.jpg",
-opts: {
-expansion: ["FI"]
-}
-},
-{
-name: "Mass Produce War Machine Armour",
-img: "https://i.imgur.com/C7Lqt7w.jpg",
-opts: {
-expansion: ["V"]
-}
-},
-{
-name: "Massive Earthquake Generator",
-img: "https://i.imgur.com/QPbWS08.jpg",
-opts: {
-expansion: ["DC"]
-}
-},
-{
-name: "Master of Tyrants",
-img: "https://i.imgur.com/zyo5Qb9.jpg",
-opts: {
-expansion: ["SW1"]
-}
-},
-{
-name: "Master the Mysteries of Kung-Fu",
-img: "https://i.imgur.com/5JBD83e.jpg",
-opts: {
-expansion: ["SW2"]
-}
-},
-{
-name: "Midtown Bank Robbery",
-img: "https://i.imgur.com/J4gjfH1.jpg",
-opts: {
-expansion: ["C"]
-}
-},
-{
-name: "Distract the Hero",
-img: "https://i.imgur.com/TTIlMfq.png",
-opts: {
-expansion: ["SMH"]
-}
-},
-{
-name: "Explosion at the Washington Monument",
-img: "https://i.imgur.com/S9mwrEO.png",
-opts: {
-expansion: ["SMH"]
-}
-},
-{
-name: "Organized Crime Wave",
-img: "https://i.imgur.com/Vw8mIFb.jpg",
-opts: {
-expansion: ["DC"]
-}
-},
-{
-name: "Pan-Dimensional Plague",
-img: "https://i.imgur.com/2IpiVj2.jpg",
-opts: {
-expansion: ["SW1"]
-}
-},
-{
-name: "Ferry Disaster",
-img: "https://i.imgur.com/vPZXht2.png",
-opts: {
-expansion: ["SMH"]
-}
-},
-{
-name: "Scavenge Alien Weaponry",
-img: "https://i.imgur.com/ioiGQkx.png",
-opts: {
-expansion: ["SMH"]
-}
-},
-{
-name: "Invasion of the Venom Symbiotes",
-img: "https://i.imgur.com/UozdtNA.png",
-opts: {
-expansion: ["VN"]
+expansion: ["NM"]
 }
 },
 {
 name: "Maximum Carnage",
-img: "https://i.imgur.com/Y5nQ8Pg.png",
+img: "https://i.imgur.com/dkhELoB.png",
 opts: {
-expansion: ["VN"]
+expansion: ["PTR"]
 }
 },
 {
-name: "Pull Reality into the Negative Zone",
-img: "https://i.imgur.com/j2gxk0x.jpg",
+name: "Sinister Six",
+img: "https://i.imgur.com/dllxD1S.png",
 opts: {
-expansion: ["F4"]
+expansion: ["PTR"]
 }
 },
 {
-name: "Ragnarok, Twilight of the Gods",
-img: "https://i.imgur.com/fOYoZG7.jpg",
+name: "Inhuman Rebellion",
+img: "https://i.imgur.com/LXf3MdB.png",
 opts: {
-expansion: ["HOA"]
+expansion: ["ROK"]
 }
 },
 {
-name: "Replace Earth's Leaders with Killbots",
-img: "https://i.imgur.com/u5PGfxX.jpg",
+name: "Shi'ar Imperial Elite",
+img: "https://i.imgur.com/VqxKp06.png",
 opts: {
-expansion: ["C"]
+expansion: ["ROK"]
 }
 },
 {
-name: "Resurrect Heroes with the Norn Stones",
-img: "https://i.imgur.com/Ndxbkyc.jpg",
-opts: {
-expansion: ["V"]
-}
-},
-{
-name: "Paralyzing Venom",
-img: "https://i.imgur.com/WAj2puk.png",
-opts: {
-expansion: ["VN"]
-}
-},
-{
-name: "Symbiotic Absorption",
-img: "https://i.imgur.com/MQ01ILi.png",
-opts: {
-expansion: ["VN"]
-}
-},
-{
-name: "S.H.I.E.L.D vs Hydra War",
-img: "https://i.imgur.com/TlevlPt.jpg",
-opts: {
-expansion: ["S"]
-}
-},
-{
-name: "Save Humanity",
-img: "https://i.imgur.com/A7koQNX.jpg",
-opts: {
-expansion: ["DC"]
-}
-},
-{
-name: "Break the Planet Asunder",
-img: "https://i.imgur.com/j3l81Zp.jpg",
-opts: {
-expansion: ["WWH"]
-}
-},
-{
-name: "Secret Empire of Betrayal",
-img: "https://i.imgur.com/83Zv25P.jpg",
-opts: {
-expansion: ["S"]
-}
-},
-{
-name: "Secret Hydra Corruption / Open Hydra Revolution",
-img: "https://i.imgur.com/wKGNMdh.jpg",
+name: "Army of Evil",
+img: "https://i.imgur.com/uVISCGi.png",
 opts: {
 expansion: ["RV"]
 }
 },
 {
-name: "Secret Invasion of the Skrull Shapeshifters",
-img: "https://i.imgur.com/4nhv3kQ.jpg",
+name: "Dark Avengers",
+img: "https://i.imgur.com/c5NhbwJ.png",
 opts: {
-expansion: ["C"]
+expansion: ["RV"]
 }
 },
 {
-name: "Secret Wars",
-img: "https://i.imgur.com/pCYVGfp.jpg",
+name: "Hood's Gang",
+img: "https://i.imgur.com/EoGWqVn.png",
 opts: {
-expansion: ["SW2"]
+expansion: ["RV"]
 }
 },
 {
-name: "Cytoplasm Spike Invasion",
-img: "https://i.imgur.com/hr2yfp5.jpg",
+name: "Lethal Legion",
+img: "https://i.imgur.com/4ovamdC.png",
 opts: {
-expansion: ["WWH"]
+expansion: ["RV"]
 }
 },
 {
-name: "Fall of the Hulks",
-img: "https://i.imgur.com/40933nA.jpg",
+name: "A.I.M., Hydra Offshoot",
+img: "https://i.imgur.com/jV1Vmfd.png",
 opts: {
-expansion: ["WWH"]
+expansion: ["SH"]
 }
 },
 {
-name: "Sinister Ambitions",
-img: "https://i.imgur.com/AWZK5ly.jpg",
+name: "Hydra Elite",
+img: "https://i.imgur.com/fRALStC.png",
 opts: {
-expansion: ["SW2"]
+expansion: ["SH"]
 }
 },
 {
-name: "Smash Two Dimensions Together",
-img: "https://i.imgur.com/OkZBt8p.jpg",
+name: "Salvagers",
+img: "https://i.imgur.com/z3CaVtn.png",
+opts: {
+expansion: ["SMH"]
+}
+},
+{
+name: "Vulture Tech",
+img: "https://i.imgur.com/bjw529c.png",
+opts: {
+expansion: ["SMH"]
+}
+},
+{
+name: "Domain of Apocalypse",
+img: "https://i.imgur.com/7O5N9Oj.png",
 opts: {
 expansion: ["SW1"]
 }
 },
 {
-name: "Splice Humans with Spider DNA",
-img: "https://i.imgur.com/O9MjkHK.jpg",
+name: "Limbo",
+img: "https://i.imgur.com/jAlpyf2.png",
 opts: {
-expansion: ["PTTR"]
+expansion: ["SW1"]
 }
 },
 {
-name: "Gladiator Pits of Sakaar",
-img: "https://i.imgur.com/5La4t6D.jpg",
+name: "Manhattan (Earth-1610)",
+img: "https://i.imgur.com/oEbXu8R.png",
 opts: {
-expansion: ["WWH"]
+expansion: ["SW1"]
 }
 },
 {
-name: "Steal the Weaponised Plutonium",
-img: "https://i.imgur.com/evkmlPt.jpg",
+name: "Sentinel Territories",
+img: "https://i.imgur.com/0TuDc2b.png",
 opts: {
-expansion: ["DC"]
+expansion: ["SW1"]
 }
 },
 {
-name: "Mutating Gamma Rays",
-img: "https://i.imgur.com/u3WCNYW.jpg",
+name: "The Deadlands",
+img: "https://i.imgur.com/XtWtZ4V.png",
 opts: {
-expansion: ["WWH"]
+expansion: ["SW1"]
 }
 },
 {
-name: "Superhero Civil War",
-img: "https://i.imgur.com/HFZNyG7.jpg",
+name: "Wasteland",
+img: "https://i.imgur.com/pjTSk2k.png",
 opts: {
-expansion: ["C"]
+expansion: ["SW1"]
 }
 },
 {
-name: "Superhuman Baseball Game",
-img: "https://i.imgur.com/XzGDPzg.jpg",
-opts: {
-expansion: ["NM"]
-}
-},
-{
-name: "Shoot Hulk into Space",
-img: "https://i.imgur.com/LXS25Tg.jpg",
-opts: {
-expansion: ["WWH"]
-}
-},
-{
-name: "Subjugate with Obedience Disks",
-img: "https://i.imgur.com/emGqFJr.jpg",
-opts: {
-expansion: ["WWH"]
-}
-},
-{
-name: "The Clone Saga",
-img: "https://i.imgur.com/xsESZcH.jpg",
-opts: {
-expansion: ["PTTR"]
-}
-},
-{
-name: "The Contest of Champions",
-img: "https://i.imgur.com/dWTHJsk.jpg",
-opts: {
-expansion: ["ITC"]
-}
-},
-{
-name: "World War Hulk",
-img: "https://i.imgur.com/ySc65W8.jpg",
-opts: {
-expansion: ["WWH"]
-}
-},
-{
-name: "The Dark World of Svartalfheim",
-img: "https://i.imgur.com/0hoWBHm.jpg",
-opts: {
-expansion: ["HOA"]
-}
-},
-{
-name: "The Demon Bear Saga",
-img: "https://i.imgur.com/i4lC3BF.jpg",
-opts: {
-expansion: ["NM"]
-}
-},
-{
-name: "The Fountain of Eternal Life",
-img: "https://i.imgur.com/iQJ1vHX.jpg",
+name: "Deadpool's Secret Secret Wars",
+img: "https://i.imgur.com/FIAKbub.png",
 opts: {
 expansion: ["SW2"]
 }
 },
 {
-name: "The God-Emperor of Battleword",
-img: "https://i.imgur.com/3DxUqst.jpg",
+name: "Guardians of Knowhere",
+img: "https://i.imgur.com/Q48G7a0.png",
 opts: {
 expansion: ["SW2"]
 }
 },
 {
-name: "The Korvac Saga / Korvac Revealed",
-img: "https://i.imgur.com/E6BYlIL.jpg",
-opts: {
-expansion: ["RV"]
-}
-},
-{
-name: "The Kree-Skrull War",
-img: "https://i.imgur.com/RHIypE1.jpg",
-opts: {
-expansion: ["GG"]
-}
-},
-{
-name: "The Legacy Virus",
-img: "https://i.imgur.com/C4OPrzc.jpg",
-opts: {
-expansion: ["C"]
-}
-},
-{
-name: "The Mark of Khonshu",
-img: "https://i.imgur.com/t9FkP3E.jpg",
+name: "K'un-lun",
+img: "https://i.imgur.com/2vXlFkG.png",
 opts: {
 expansion: ["SW2"]
 }
 },
 {
-name: "The Traitor",
-img: "https://i.imgur.com/ASboK57.jpg",
+name: "Monster Metropolis",
+img: "https://i.imgur.com/KX116ET.png",
 opts: {
-expansion: ["FI"]
+expansion: ["SW2"]
 }
 },
 {
-name: "The Unbreakable Enigma Code",
-img: "https://i.imgur.com/p9Nju7F.jpg",
+name: "Utopolis",
+img: "https://i.imgur.com/GsuUzXf.png",
 opts: {
-expansion: ["CA"]
+expansion: ["SW2"]
 }
 },
 {
-name: "Alien Brood Encounters",
-img: "https://i.imgur.com/tVKDGCb.jpg",
+name: "X-Men '92",
+img: "https://i.imgur.com/6gSUwov.png",
+opts: {
+expansion: ["SW2"]
+}
+},
+{
+name: "Avengers",
+img: "https://i.imgur.com/gJS2sys.png",
+opts: {
+expansion: ["V"]
+}
+},
+{
+name: "Defenders",
+img: "https://i.imgur.com/jU3rniT.png",
+opts: {
+expansion: ["V"]
+}
+},
+{
+name: "Marvel Knights",
+img: "https://i.imgur.com/zJpZOnV.png",
+opts: {
+expansion: ["V"]
+}
+},
+{
+name: "Spider Friends",
+img: "https://i.imgur.com/QIxCUCj.png",
+opts: {
+expansion: ["V"]
+}
+},
+{
+name: "Uncanny Avengers",
+img: "https://i.imgur.com/hg1DU1V.png",
+opts: {
+expansion: ["V"]
+}
+},
+{
+name: "Uncanny X-Men",
+img: "https://i.imgur.com/QN7wI8N.png",
+opts: {
+expansion: ["V"]
+}
+},
+{
+name: "X-Men First Class",
+img: "https://i.imgur.com/nO6H8rc.png",
+opts: {
+expansion: ["V"]
+}
+},
+{
+name: "Life Foundation",
+img: "https://i.imgur.com/1kjBjoF.png",
+opts: {
+expansion: ["VN"]
+}
+},
+{
+name: "Poisons",
+img: "https://i.imgur.com/cHxuvGC.png",
+opts: {
+expansion: ["VN"]
+}
+},
+{
+name: "Aspects of the Void",
+img: "https://i.imgur.com/j21fpxv.png",
+opts: {
+expansion: ["WWH"]
+}
+},
+{
+name: "Code Red",
+img: "https://i.imgur.com/jSn5dEI.png",
+opts: {
+expansion: ["WWH"]
+}
+},
+{
+name: "Illuminati",
+img: "https://i.imgur.com/j3fDu2t.png",
+opts: {
+expansion: ["WWH"]
+}
+},
+{
+name: "Intelligencia",
+img: "https://i.imgur.com/o8oc7Rq.png",
+opts: {
+expansion: ["WWH"]
+}
+},
+{
+name: "Sakaar Imperial Guard",
+img: "https://i.imgur.com/zOcmhYV.png",
+opts: {
+expansion: ["WWH"]
+}
+},
+{
+name: "U-Foes",
+img: "https://i.imgur.com/XUAYr9t.png",
+opts: {
+expansion: ["WWH"]
+}
+},
+{
+name: "Warbound",
+img: "https://i.imgur.com/EO4F47d.png",
+opts: {
+expansion: ["WWH"]
+}
+},
+{
+name: "Dark Descendants",
+img: "https://i.imgur.com/sN2lC8c.png",
 opts: {
 expansion: ["XM"]
 }
 },
 {
-name: "Transform Citizens into Demons",
-img: "https://i.imgur.com/9PlzjQp.jpg",
-opts: {
-expansion: ["DC"]
-}
-},
-{
-name: "Anti-Mutant Hatred",
-img: "https://i.imgur.com/oKcwEKE.jpg",
+name: "Hellfire Club",
+img: "https://i.imgur.com/U2rfPk9.png",
 opts: {
 expansion: ["XM"]
 }
 },
 {
-name: "Horror of Horrors",
-img: "https://i.imgur.com/u8ii9aa.jpg",
+name: "Mojoverse",
+img: "https://i.imgur.com/kNsbfPR.png",
 opts: {
 expansion: ["XM"]
 }
 },
 {
-name: "Trapped in the Insane Asylum",
-img: "https://i.imgur.com/H5qDzH5.jpg",
-opts: {
-expansion: ["NM"]
-}
-},
-{
-name: "Turn the Soul of Adam Warlock",
-img: "https://i.imgur.com/nxey1Qe.jpg",
-opts: {
-expansion: ["ITC"]
-}
-},
-{
-name: "Unite the Shards",
-img: "https://i.imgur.com/horf9eT.jpg",
-opts: {
-expansion: ["GG"]
-}
-},
-{
-name: "Mutant-Hunting Super Sentinels",
-img: "https://i.imgur.com/TAeSWzr.jpg",
+name: "Murderworld",
+img: "https://i.imgur.com/1vgmhjZ.png",
 opts: {
 expansion: ["XM"]
 }
 },
 {
-name: "Nuclear Armageddon",
-img: "https://i.imgur.com/z5VSYdA.jpg",
+name: "Shadow-X",
+img: "https://i.imgur.com/Qyp273E.png",
 opts: {
 expansion: ["XM"]
 }
 },
 {
-name: "Televised Deathtraps of Mojoworld",
-img: "https://i.imgur.com/7GOv62P.jpg",
+name: "Shi'ar Imperial Guard",
+img: "https://i.imgur.com/sd33DL3.png",
 opts: {
 expansion: ["XM"]
 }
 },
 {
-name: "War of the Frost Giants",
-img: "https://i.imgur.com/UL4EZvZ.jpg",
-opts: {
-expansion: ["HOA"]
-}
-},
-{
-name: "Weave a Web of Lies",
-img: "https://i.imgur.com/SNBmCBJ.jpg",
-opts: {
-expansion: ["PTTR"]
-}
-},
-{
-name: "The Dark Phoenix Saga",
-img: "https://i.imgur.com/sm4aI7a.jpg",
-opts: {
-expansion: ["XM"]
-}
-},
-{
-name: "X-Cutioners Song",
-img: "https://i.imgur.com/40f5BXp.jpg",
-opts: {
-expansion: ["DC"]
-}
-},
-{
-name: "X-Men Danger Room Goes Berserk",
-img: "https://i.imgur.com/ApplSyd.jpg",
-opts: {
-expansion: ["XM"]
-}
-},
-{
-name: "Devolve with Xerogen Crystals",
-img: "https://i.imgur.com/W61WH2z.png",
-opts: {
-expansion: ["XM"]
-}
-},
-{
-name: "Ruin the Perfect Wedding",
-img: "https://i.imgur.com/WCT5fpB.png",
-opts: {
-expansion: ["XM"]
-}
-},
-{
-name: "Tornado of Terrigen Mists",
-img: "https://i.imgur.com/ntnVwdx.png",
-opts: {
-expansion: ["XM"]
-}
-},
-{
-name: "War of Kings",
-img: "https://i.imgur.com/2uYmj8X.png",
+name: "Sisterhood of Mutants",
+img: "https://i.imgur.com/3yzu3jV.png",
 opts: {
 expansion: ["XM"]
 }
